@@ -1,9 +1,9 @@
 package adrianobruzzese.bem5w3d5.payloads;
 
+import adrianobruzzese.bem5w3d5.enums.Ruolo;
 import jakarta.validation.constraints.Email;
 import jakarta.validation.constraints.NotEmpty;
 import jakarta.validation.constraints.Size;
-import adrianobruzzese.bem5w3d5.enums.Ruolo;
 
 public record NewUtenteDTO(
 
